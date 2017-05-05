@@ -28,9 +28,6 @@ function calcRedeemablePop(popsBought, caps, bottles){
 
 }
 
-
-
-
 var moneySpent = process.argv[2];
 
 console.log(calcRedeemablePop(Math.floor(moneySpent/2), 0, 0),"Extra drinks obtained");
